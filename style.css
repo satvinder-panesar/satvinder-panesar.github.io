@@ -10,19 +10,18 @@
 	display: flex;
 	flex-direction: row;
 	color: white;
+  justify-content: space-between;
 }
 .image{
 	flex: 1;
 	border-radius: 50%;
-	max-width: 18%;
-	max-height: 20%;
-  margin-left: 10px;
+	max-width: 12%;
+	max-height: 18%;
 	margin-top: 10px;
-	margin-right: 15px;
+  margin-left: 10px;
 	margin-bottom: 10px;
 }
 .name{
-	flex: 6;
 	margin-top: 40px;
 	font-weight: bold;
 }
@@ -31,7 +30,7 @@
 }
 .links{
 	margin-top: 10px;
-	flex: 2.5;
+  margin-right:10px;
 }
 .icon{
 	margin-top: 10px;
