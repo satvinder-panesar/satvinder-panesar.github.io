@@ -21,14 +21,17 @@
   margin-left: 10px;
   margin-right: 10px;
 	margin-bottom: 10px;
+  max-height: 125px;
 }
 .name{
 	margin-top: 40px;
-  margin-right: 10px;
 	font-weight: bold;
+  min-width: 100px;
+  margin-right:10px;
 }
 .address{
 	margin-top: 20px;
+  margin-right: 10px;
 }
 .links{
 	margin-top: 10px;
