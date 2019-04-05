@@ -19,10 +19,12 @@
 	max-height: 18%;
 	margin-top: 10px;
   margin-left: 10px;
+  margin-right: 10px;
 	margin-bottom: 10px;
 }
 .name{
 	margin-top: 40px;
+  margin-right: 10px;
 	font-weight: bold;
 }
 .address{
