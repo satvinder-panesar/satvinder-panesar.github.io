@@ -131,3 +131,14 @@ img{
 .projects li {
 	margin-bottom: 4px;
 }
+
+.project-name {
+	background-color: gray;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.projects {
+	line-height: 1.5;
+}
