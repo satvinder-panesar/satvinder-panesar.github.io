@@ -1,12 +1,113 @@
-.banner{
-  background-color: #ecf0e9;
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img{
-  max-height: 100px;
-  max-width: 100px;
+	max-width: 150px;
+	max-height: 155px;
+	
+	border-radius: 50%;
+}
+.image{
+	width: 100%;
 }
 
-body{
-  padding-top: 140px;
+.summary {
+	width: 100%;
+	background-color: gray;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.big {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.medium {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+.text-white{
+	color: white
+}
+
+.text-gray{
+	color: gray
+}
+
+.text-center{
+	text-align: center;
+}
+
+.education-title, .skills-title, .career-title, .responsibilities {
+	width: 100%
+}
+
+.education-details, .skills-details {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.degree, .skill {
+	background-color: gray;
+	color: white;
+	margin: 5px;
+	padding: 4px;
+	flex-grow: 1;
+}
+
+.designation {
+	background-color: gray;
+	width: 100%;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+}
+
+@media only screen and (min-width: 640px){
+	.image{
+		width: 30%
+	}
+	.summary{
+		width: 70%;
+		padding-top: 25px;
+	}
+	.degree, .skill {
+		flex-grow: 1;
+	}
+	.designation{
+		width: 40%
+	}
+	.responsibilities{
+		width: 57%
+	}
+}
+
+@media only screen and (min-width: 850px){
+	.container {
+		border: 2px solid gray;
+	}
+
+}
+
+.timeline {
+	margin-left: auto;
 }
