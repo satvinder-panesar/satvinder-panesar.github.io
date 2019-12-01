@@ -40,7 +40,7 @@ img{
 
 .summary {
 	width: 100%;
-	background-color: gray;
+	background-color: #525252;
 	padding: 5px;
 	margin-top: 10px;
 }
@@ -64,7 +64,7 @@ img{
 }
 
 .text-gray{
-	color: gray
+	color: #525252
 }
 
 .text-center{
@@ -82,7 +82,7 @@ img{
 }
 
 .degree, .skill {
-	background-color: gray;
+	background-color: #525252;
 	color: white;
 	margin: 5px;
 	padding: 4px;
@@ -91,7 +91,7 @@ img{
 }
 
 .designation {
-	background-color: gray;
+	background-color: #525252;
 	width: 100%;
 	padding: 4px;
 	display: flex;
