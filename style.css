@@ -23,7 +23,6 @@ a{
 	width: 100%;
 	flex-wrap: wrap;
 	margin-bottom: 10px;
-	background-color: #442b99;
 }
 
 .center{
@@ -132,7 +131,7 @@ img{
 	}
 	.banner {
 		height: 100px;
-		background-color: #525252;
+		background-color: #442b99;
 		margin-bottom: 0px;
 		justify-content: flex-end;
 		position: relative;
