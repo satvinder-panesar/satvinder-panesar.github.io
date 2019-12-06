@@ -41,7 +41,7 @@ img{
 
 .summary {
 	width: 100%;
-	background-color: #442b99;
+	background-color: #263547;
 	padding: 5px;
 	margin-top: 10px;
 }
@@ -83,7 +83,7 @@ img{
 }
 
 .degree, .skill, .link {
-	background-color: #525252;
+	background-color: #263547;
 	color: white;
 	margin: 5px;
 	padding: 4px;
@@ -92,7 +92,7 @@ img{
 }
 
 .designation {
-	background-color: #525252;
+	background-color: #263547;
 	width: 100%;
 	padding: 4px;
 	display: flex;
@@ -131,7 +131,7 @@ img{
 	}
 	.banner {
 		height: 100px;
-		background-color: #442b99;
+		background-color: #263547;
 		margin-bottom: 0px;
 		justify-content: flex-end;
 		position: relative;
@@ -181,7 +181,7 @@ img{
 }
 
 .project-name {
-	background-color: #525252;
+	background-color: #263547;
 	color: white;
 	padding: 5px;
 	border-radius: 10px;
