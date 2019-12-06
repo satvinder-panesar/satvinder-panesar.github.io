@@ -23,6 +23,7 @@ a{
 	width: 100%;
 	flex-wrap: wrap;
 	margin-bottom: 10px;
+	background-color: #442b99;
 }
 
 .center{
@@ -41,7 +42,7 @@ img{
 
 .summary {
 	width: 100%;
-	background-color: #525252;
+	background-color: #442b99;
 	padding: 5px;
 	margin-top: 10px;
 }
