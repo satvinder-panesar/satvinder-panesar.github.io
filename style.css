@@ -100,7 +100,7 @@ img{
 	margin-right: 5px;
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 600px){
 	.image{
 		width: 25%;
 		margin: 0px;
@@ -127,7 +127,7 @@ img{
 		flex-grow: 1;
 	}
 	.responsibilities{
-		width: 57%
+		width: 100%
 	}
 	.banner {
 		height: 100px;
