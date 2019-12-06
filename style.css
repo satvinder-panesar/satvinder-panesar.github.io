@@ -14,6 +14,7 @@
 a{
 	color: white;
 	text-decoration: none;
+	flex-grow: 1;
 }
 
 .banner {
@@ -71,17 +72,17 @@ img{
 	text-align: center;
 }
 
-.education-title, .skills-title, .career-title, .projects-title, .responsibilities {
+.education-title, .skills-title, .career-title, .projects-title, .responsibilities, .contacts-title {
 	width: 100%
 }
 
-.education-details, .skills-details {
+.education-details, .skills-details, .contacts-details {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.degree, .skill {
+.degree, .skill, .link {
 	background-color: #525252;
 	color: white;
 	margin: 5px;
@@ -99,23 +100,62 @@ img{
 	margin-right: 5px;
 }
 
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 760px){
 	.image{
 		width: 25%;
 		margin: 0px;
 	}
-	.summary{
+	.contacts-skills-education{
+		width: 30%;
+		box-sizing: border-box;
+		padding: 5px;
+		padding-top: 80px;
+		background-color: lightgray;
+	}
+	.career-projects{
 		width: 70%;
-		padding-top: 20px;
+		box-sizing: border-box;
+		padding: 5px;
+		padding-left: 14px;
 	}
-	.degree, .skill {
+	.summary{
+		box-sizing: border-box;
+		width: 70%;
+		padding-top: 5px !important;
+	}
+	.degree, .skill, .link {
 		flex-grow: 1;
-	}
-	.designation{
-		width: 40%
 	}
 	.responsibilities{
 		width: 57%
+	}
+	.banner {
+		height: 100px;
+		background-color: #525252;
+		margin-bottom: 0px;
+		justify-content: flex-end;
+		position: relative;
+	}
+	.summary{
+		height: 100px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.image {
+		position: absolute;
+		padding-top: 5px;
+		top: 10px;
+		left: 5%;
+	}
+	.designation{
+		width: auto;
+	}
+	.education-title, .skills-title, .contacts-title {
+		text-align: center;
+	}
+
+	.contacts-details, .skills-details, .education-details {
+		flex-direction: column;
 	}
 }
 
@@ -123,10 +163,9 @@ img{
 	.container {
 		border: 2px solid gray;
 	}
-	.summary{
-		width: 78%;
+	.image {
+		left: 6%;
 	}
-
 }
 
 .timeline {
