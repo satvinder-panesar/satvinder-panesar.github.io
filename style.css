@@ -30,7 +30,7 @@ a{
 	margin-right: auto;
 }
 
-img{
+.banner img{
 	max-width: 150px;
 	max-height: 155px;
 	border-radius: 50%;
@@ -80,6 +80,11 @@ img{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	text-align: center;
+}
+
+.contacts-details{
+	align-items: center;
 }
 
 .degree, .skill, .link {
@@ -189,4 +194,19 @@ img{
 
 .projects {
 	line-height: 1.5;
+}
+
+.contacts-details img {
+	max-width: 50px;
+	max-height: 50px;
+	padding: 2px;
+}
+
+.footer {
+	width: 100%;
+	color: white;
+	background-color: #263547;
+	padding-top: 5px;
+	text-align: center;
+	height: 25px;
 }
