@@ -3,7 +3,10 @@ var urlsToCache = [
   '/',
   '/index.html',
   '/image.png',
-  '/style.css'
+  '/style.css',
+  'https://img.icons8.com/ios-filled/100/000000/gmail.png',
+  'https://img.icons8.com/android/96/000000/linkedin.png',
+  'https://img.icons8.com/ios-filled/100/000000/github.png'
 ];
 
 self.addEventListener('install', function(event) {
