@@ -84,7 +84,8 @@ a{
 }
 
 .contacts-details{
-	align-items: center;
+	display: flex;
+	flex-direction: row !important;
 }
 
 .degree, .skill, .link {
