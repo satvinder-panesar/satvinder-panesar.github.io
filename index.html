@@ -11,7 +11,7 @@
 						<div class="big text-white text-center">Satvinder Singh Panesar</div>
 						<div class="medium text-white text-center">Full Stack Web Developer</div>
 						<div class="medium text-white text-center">
-							4.5 years of Software Development Experience<br>
+							<div id="summary"></div>
 						</div>
 					</div>
 			</div>
@@ -161,6 +161,16 @@
 			</div>	
 		</div>
 		<script>
+			let startDates = [new Date(2013, 06, 01), new Date(2016, 02, 01), new Date(2016, 08, 01), new Date(2018, 05, 01), new Date(2019, 03, 01)]
+			let endDates = [new Date(2016, 02, 01), new Date(2016, 08, 01), new Date(2017, 04, 01), new Date(2018, 07, 01), new Date()]
+			let months = 0
+			endDates.forEach((endDate, index) => {
+				const startDate = startDates[index];
+				months += (endDate.getFullYear() - startDate.getFullYear()) * 12;
+				months -= startDate.getMonth();
+				months += endDate.getMonth();
+			})
+			document.getElementById("summary").innerHTML = (months/12).toFixed(1) +" years of Software Development Experience"; 
 			if ('serviceWorker' in navigator) {
 				window.addEventListener('load', function() {
 					navigator.serviceWorker.register('/sw.js')
