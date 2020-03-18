@@ -211,3 +211,8 @@ a{
 	text-align: center;
 	height: 25px;
 }
+
+.projects img {
+	max-width: 20px;
+	max-height: 20px;
+}
