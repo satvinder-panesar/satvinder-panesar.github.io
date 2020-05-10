@@ -201,8 +201,11 @@
 			let message = ""
 			message += `${Math.floor(months/12)} years `
 			const temp = months % 12
-			if(temp > 0){
+			if(temp > 1){
 				message += `and ${temp} months ` 
+			}
+			else if(temp === 1){
+				message += `and ${temp} month `
 			}
 			message += 'of Software Development Experience'
 			document.getElementById("summary").innerHTML = message
