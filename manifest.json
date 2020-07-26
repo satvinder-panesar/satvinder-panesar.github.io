@@ -1,0 +1,13 @@
+{
+    "name": "Profile",
+    "short_name": "Profile",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Satvinder's Profile",
+    "icons": [{
+      "src": "images/homescreen.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+  }
