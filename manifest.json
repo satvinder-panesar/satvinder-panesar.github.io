@@ -1,7 +1,7 @@
 {
     "name": "Profile",
     "short_name": "Profile",
-    "start_url": ".",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#fff",
     "description": "Satvinder's Profile",
