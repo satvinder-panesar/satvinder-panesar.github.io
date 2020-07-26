@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-profile';
+var CACHE_NAME = 'my-profile-v2';
 var urlsToCache = [
   '/',
   '/index.html',
