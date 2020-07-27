@@ -2,7 +2,7 @@ var CACHE_NAME = 'my-profile-v2';
 var urlsToCache = [
   '/',
   '/index.html',
-  '/image.png',
+  '/images/profile.png',
   '/style.css',
   'https://img.icons8.com/ios-filled/100/000000/gmail.png',
   'https://img.icons8.com/android/96/000000/linkedin.png',
