@@ -18,6 +18,11 @@ h1 {
     max-width: 870px;
 }
 
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
 .header-container{
     padding: 1.5em;
     background-color: 2F2FA2;
@@ -120,6 +125,9 @@ ul li, .languages {
 }
 
 @media only screen and (min-width: 800px) {
+    .links{
+        flex-direction: row;
+    }
     .hero{
         display: flex;
         padding: 1em;
