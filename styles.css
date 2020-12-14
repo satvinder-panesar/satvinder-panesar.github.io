@@ -11,6 +11,10 @@ img{
     width: 100%;
 }
 
+.img a {
+    padding: 0px;
+}
+
 h1 {
     margin: 0px;
     font-size: larger;
