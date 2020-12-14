@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}    
+
+body {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+img {
+    width: 100%;
+}
+
+.header-container{
+    padding: 1.5em;
+    background-color: 2F2FA2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: white;
+    font-weight: 800;
+}
+
+.name {
+    color: F64C27;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.hero {
+    text-align: center;;
+    background-color: 252582;
+    padding: 2em;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+
+.summary-container, .career-container {
+    padding: 2em;
+    position: relative;
+}
+
+.summary-container .title, .skillset-container .title, .career-container .title {
+    color: #F64C27;
+    font-weight: 800;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.summary-container .desc {
+    margin-top: 1em;;
+    color: 2F2FA2;
+    font-weight: 800;
+}
+
+.skillset-container {
+    margin-top: -100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: 252582;
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.skillset-container .skill-desc{
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.skill-desc .category, .job-desc .company{
+    padding-bottom: 0.5em;
+    color: #2F2FA2;
+    font-weight: 800;
+}
+
+.career-container .desc{
+    background-color: 252582;
+    border-radius: 20px;
+    margin-top: 1.5em;
+    padding: 2em;
+}
+
+.desc .responsibilities {
+    color: white;
+}
+
+.job-desc {
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+ul li, .languages {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.contacts-container{
+    padding: 0m;
+    background-color: 2F2FA2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 800px) {
+    .skill-desc{
+        flex:1;
+        padding: 3em !important;
+    }
+    .summary-grid .desc{
+        flex: 1;
+        padding-top: 0.5em;
+    }
+    .summary-grid .img{
+        flex: 2
+    }
+    .summary-grid, .skill-grid{
+        display: flex;
+        justify-content: space-around;
+    }
+    .skillset-container{
+        margin-top: -60px;
+        padding-top: 60px;
+    }
+    .summary-container .title, .skillset-container .title, .career-container .title {
+        text-align: left;
+    }
+    #skillset{
+        padding-left: 1em;
+    }
+}
