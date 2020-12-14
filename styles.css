@@ -60,7 +60,6 @@ a{
 .summary-container .title, .skillset-container .title, .career-container .title {
     color: #F64C27;
     font-weight: 800;
-    padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
 }
@@ -124,6 +123,12 @@ ul li, .languages {
 }
 
 @media only screen and (min-width: 800px) {
+    .desc{
+        max-width: 440px;
+    }
+    .desc div{
+        margin-bottom: 1.5em;
+    }
     .links{
         flex-direction: row;
     }
