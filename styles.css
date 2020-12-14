@@ -3,19 +3,26 @@ html{
 }    
 
 body {
-    margin: 0px;
     font-family: Montserrat;
+    margin: 0px;
 }
 
-img {
+img{
     width: 100%;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+    font-size: larger;
+    max-width: 870px;
 }
 
 .header-container{
     padding: 1.5em;
     background-color: 2F2FA2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -35,7 +42,7 @@ a{
 .hero {
     text-align: center;;
     background-color: 252582;
-    padding: 2em;
+    padding: 0.5em;
     font-weight: 800;
     font-size: 40px;
     color: white;
@@ -113,6 +120,16 @@ ul li, .languages {
 }
 
 @media only screen and (min-width: 800px) {
+    .hero{
+        display: flex;
+        padding: 1em;
+    }
+    .hero h1{
+        flex: 2
+    }
+    .hero svg{
+        flex: 1
+    }
     .skill-desc{
         flex:1;
         padding: 3em !important;
