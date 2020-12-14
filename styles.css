@@ -13,7 +13,6 @@ img{
 
 h1 {
     margin: 0px;
-    padding: 20px;
     font-size: larger;
     max-width: 870px;
 }
@@ -130,13 +129,12 @@ ul li, .languages {
     }
     .hero{
         display: flex;
+        justify-content: space-between;
         padding: 1em;
     }
     .hero h1{
+        text-align: left;
         flex: 2
-    }
-    .hero svg{
-        flex: 1
     }
     .skill-desc{
         flex:1;
