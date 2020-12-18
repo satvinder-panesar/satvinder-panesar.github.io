@@ -132,11 +132,11 @@ ul li, .languages {
 
 @media only screen and (min-width: 800px) {
     .summary-container .span-desc {
-        display: block;
-        margin-top: 1em;
+        display: none;
     }
     .summary-container .desc {
-        display: true;
+        display: block;
+        margin-top: 1em;
         max-width: 440px;
     }
     .summary-container .desc div{
