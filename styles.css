@@ -68,10 +68,14 @@ a{
     text-align: center;
 }
 
-.summary-container .desc {
+.summary-container .desc, .summary-container .span-desc {
     margin-top: 1em;;
     color: 2F2FA2;
     font-weight: 800;
+}
+
+.summary-container .desc {
+    display: none;
 }
 
 .skillset-container {
@@ -127,10 +131,14 @@ ul li, .languages {
 }
 
 @media only screen and (min-width: 800px) {
-    .desc{
+    .summary-container .span-desc {
+        display: none;
+    }
+    .summary-container .desc {
+        display: true;
         max-width: 440px;
     }
-    .desc div{
+    .summary-container .desc div{
         margin-bottom: 1.5em;
     }
     .links{
