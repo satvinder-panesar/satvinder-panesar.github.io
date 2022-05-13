@@ -19,6 +19,7 @@ h1 {
     margin: 0px;
     font-size: larger;
     max-width: 870px;
+    padding-top: inherit;
 }
 
 .links{
