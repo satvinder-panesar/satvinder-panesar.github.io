@@ -133,4 +133,13 @@
             </a>
         </section>
     </body>
+    <script>
+        const joiningDate = new Date('July 01, 2013 00:00:00');
+        const currentDate = Date.now()
+        const ageDifMs = currentDate - joiningDate
+        const ageDate = new Date(ageDifMs);
+        const gapDueToMasters = 1
+        const noOfYears = Math.abs(ageDate.getUTCFullYear() - 1970 - gapDueToMasters)
+        document.getElementById("experience").innerHTML = `${noOfYears} years of Software Development Experience`
+    </script>
 </html>
