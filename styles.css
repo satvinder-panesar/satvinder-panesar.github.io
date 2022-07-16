@@ -29,31 +29,37 @@ h1 {
 
 .header-container{
     padding: 1.5em;
-    background-color: 2F2FA2;
+    background-color: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: #F64C27;
     padding: 0.5em;
     color: white;
     font-weight: 800;
 }
 
 .name {
-    color: F64C27;
+    color: white;
     font-weight: 800;
     font-size: 25px;
 }
 
 .hero {
     text-align: center;;
-    background-color: 252582;
+    background-color: cornflowerblue;
     padding: 0.5em;
     font-weight: 800;
     font-size: 40px;
+    color: white;
+}
+
+#skillset {
     color: white;
 }
 
@@ -83,7 +89,7 @@ a{
     margin-top: -100px;
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: 252582;
+    background-color: cornflowerblue;
     text-align: center;
     padding-right: 1em;
     padding-left: 1em;
@@ -125,7 +131,7 @@ ul li, .languages {
 
 .contacts-container{
     padding: 0m;
-    background-color: 2F2FA2;
+    background-color: cornflowerblue;
     display: flex;
     justify-content: space-around;
     align-items: center;
