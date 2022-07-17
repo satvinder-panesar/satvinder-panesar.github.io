@@ -28,13 +28,13 @@
             <div class="title">Summary</div>
             <div class="summary-grid">
                 <div class="desc">
-                    <span id="experience">6 years of Software Development Experience.</span>
+                    <span name="experience">6 years of Software Development Experience.</span>
                     <span>Expert in developing fully-responsive and modular Single Page Applications using Angular and React.js.</span>
                     <span>Deep understanding of core concepts like asynchronous programming, closures, and prototypical inheritance.</span>
                     <span>Extensive experience in API integration, Test Driven Development, and Agile.</span>
                 </div>
-                <div class="span-desc">
-                    <span id="experience">6 years of SDE.</span>
+                <div class="phone-view-desc">
+                    <span name="experience">6 years of SDE.</span>
                     <span>Expert in developing fully-responsive and modular Single Page Applications using Angular and React.js. </span>
                     <span>Extensive experience in API integration, Test Driven Development, and Agile.</span>
                 </div>
@@ -140,6 +140,9 @@
         const ageDate = new Date(ageDifMs);
         const gapDueToMasters = 1
         const noOfYears = Math.abs(ageDate.getUTCFullYear() - 1970 - gapDueToMasters)
-        document.getElementById("experience").innerHTML = `${noOfYears} years of Software Development Experience.`
+        const elements = document.getElementsByName("experience")
+        for(let element of elements){
+            element.innerHTML = `${noOfYears} years of Software Development Experience.`
+        }
     </script>
 </html>
