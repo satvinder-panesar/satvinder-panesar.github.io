@@ -79,7 +79,7 @@ a{
     text-align: center;
 }
 
-.summary-container .desc, .summary-container .span-desc {
+.summary-container .desc, .summary-container .phone-view-desc {
     color: 2F2FA2;
     font-weight: 800;
     padding-bottom: 1em;
@@ -142,7 +142,7 @@ ul li, .languages {
 }
 
 @media only screen and (min-width: 800px) {
-    .summary-container .span-desc {
+    .summary-container .phone-view-desc {
         display: none;
     }
     .summary-container .desc {
