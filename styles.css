@@ -68,6 +68,10 @@ a{
     position: relative;
 }
 
+.summary-container .title{
+    text-align: center;
+}
+
 .summary-container .title, .skillset-container .title, .career-container .title {
     color: #F64C27;
     font-weight: 800;
@@ -144,7 +148,6 @@ ul li, .languages {
     .summary-container .desc {
         display: block;
         margin-top: 1em;
-        max-width: 440px;
     }
     .summary-container .desc div{
         margin-bottom: 1.5em;
@@ -165,6 +168,12 @@ ul li, .languages {
         flex:1;
         padding: 3em !important;
     }
+    .summary-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     .summary-grid .desc{
         flex: 1;
         padding-top: 0.5em;
@@ -172,7 +181,7 @@ ul li, .languages {
     .summary-grid .img{
         flex: 2
     }
-    .summary-grid, .skill-grid{
+    .skill-grid{
         display: flex;
         justify-content: space-around;
     }
@@ -180,7 +189,10 @@ ul li, .languages {
         margin-top: -60px;
         padding-top: 60px;
     }
-    .summary-container .title, .skillset-container .title, .career-container .title {
+    .summary-container .title{
+        text-align: center;
+    }
+    .skillset-container .title, .career-container .title {
         text-align: left;
     }
     #skillset{
