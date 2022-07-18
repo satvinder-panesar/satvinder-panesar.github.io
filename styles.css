@@ -106,6 +106,12 @@ a{
     border-radius: 20px;
 }
 
+.company {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    text-decoration-color: #F64C27;
+}
+
 .skill-desc .category, .job-desc .company{
     padding-bottom: 0.5em;
     color: #2F2FA2;
