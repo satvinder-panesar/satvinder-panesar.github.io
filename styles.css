@@ -147,6 +147,15 @@ ul li, .languages {
     align-items: center;
 }
 
+#email {
+    display: flex;
+    align-items: center;
+}
+
+#email span {
+    padding-left: 0.5em;
+}
+
 @media only screen and (min-width: 800px) {
     .summary-container .phone-view-desc {
         display: none;
