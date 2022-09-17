@@ -215,20 +215,18 @@ ul li, .languages {
     }
 }
 
-.dark {
-    .header-container, .summary-container, .skill-desc, .career-container{
-        background-color: black;
-    }
-    .hero, skillset-container, .contacts-container {
-        background-color: gray;
-    }
-    .desc, .languages, .job-desc{
-        color: white;
-    }
-    .summary-container .title, .skill-desc .category{
-        color: #F64C27;
-    }
-    .img {
-        filter: brightness(0.75)
-    }
+.dark .header-container, .dark .summary-container, .dark .skill-desc, .dark .career-container {
+    background-color: black;
+}
+.dark .hero, .dark skillset-container, .dark .contacts-container {
+    background-color: gray;
+}
+.dark .desc, .dark .languages, .dark .job-desc {
+    color: white;
+}
+.dark .summary-container, .dark .title, .dark .skill-desc, .dark .category{
+    color: #F64C27;
+}
+.dark .img {
+    filter: brightness(0.75)
 }
