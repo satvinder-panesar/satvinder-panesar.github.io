@@ -217,7 +217,7 @@ ul li, .languages {
 }
 
 * {
-    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
 }
 
 #dark-mode {
