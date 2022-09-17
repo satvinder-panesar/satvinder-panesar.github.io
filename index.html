@@ -152,7 +152,7 @@
         const currentDate = Date.now()
         const ageDifMs = currentDate - joiningDate
         const ageDate = new Date(ageDifMs);
-        const gapDueToMasters = 1
+        const gapDueToMasters = 2
         const noOfYears = Math.abs(ageDate.getUTCFullYear() - 1970 - gapDueToMasters)
         const elements = document.getElementsByName("experience")
         for(let element of elements){
