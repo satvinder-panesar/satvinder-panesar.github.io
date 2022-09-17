@@ -215,7 +215,7 @@ ul li, .languages {
     }
 }
 
-body .dark {
+.dark {
     .header-container, .summary-container, .skill-desc, .career-container{
         background-color: black;
     }
