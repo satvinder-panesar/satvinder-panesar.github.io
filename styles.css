@@ -61,6 +61,7 @@ a{
 
 #skillset {
     color: white;
+    padding-top: 1em;
 }
 
 .summary-container, .career-container {
@@ -218,11 +219,12 @@ ul li, .languages {
 .dark .header-container, .dark .summary-container, .dark .skill-desc, .dark .career-container {
     background-color: black;
 }
-.dark .hero, .dark skillset-container, .dark .contacts-container {
+.dark .hero, .dark .skillset-container, .dark .contacts-container {
     background-color: gray;
 }
-.dark .desc, .dark .languages, .dark .job-desc {
+.dark .desc, .dark .languages, .dark .job-desc, .dark .company {
     color: white;
+    text-decoration-color: #F64C27;
 }
 .dark .summary-container, .dark .title, .dark .skill-desc, .dark .category{
     color: #F64C27;
