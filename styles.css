@@ -230,7 +230,7 @@ ul li, .languages {
 .dark .hero, .dark .skillset-container, .dark .contacts-container {
     background-color: gray;
 }
-.dark .desc, .dark .languages, .dark .job-desc, .dark .company {
+.dark .desc, .dark .languages, .dark .job-desc, .dark .company, .dark .phone-view-desc {
     color: white;
     text-decoration-color: #F64C27;
 }
