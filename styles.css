@@ -214,3 +214,21 @@ ul li, .languages {
         padding-left: 1em;
     }
 }
+
+body .dark {
+    .header-container, .summary-container, .skill-desc, .career-container{
+        background-color: black;
+    }
+    .hero, skillset-container, .contacts-container {
+        background-color: gray;
+    }
+    .desc, .languages, .job-desc{
+        color: white;
+    }
+    .summary-container .title, .skill-desc .category{
+        color: #F64C27;
+    }
+    .img {
+        filter: brightness(0.75)
+    }
+}
