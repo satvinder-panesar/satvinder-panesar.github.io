@@ -7,6 +7,7 @@
         <div class="header-container">
             <span class="name">Satvinder Singh Panesar</span>
             <span class="links">
+                <button id="dark-mode">Dark</button>
                 <a href="#skillset">Skillset</a>
                 <a href="#career">Career</a>
                 <a href="#email">Contact</a>
@@ -143,6 +144,7 @@
         </section>
     </body>
     <script>
+        // Calculating numbers of years of SDE
         const joiningDate = new Date('July 01, 2013 00:00:00');
         const currentDate = Date.now()
         const ageDifMs = currentDate - joiningDate
@@ -153,5 +155,10 @@
         for(let element of elements){
             element.innerHTML = `${noOfYears} years of Software Development Experience.`
         }
+        
+        // Toggling dark mode
+        document.getElementById('dark-mode').addEventListener('click', () => {
+            document.body.classList.toggle('dark')
+        })
     </script>
 </html>
