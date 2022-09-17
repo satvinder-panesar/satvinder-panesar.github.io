@@ -216,6 +216,10 @@ ul li, .languages {
     }
 }
 
+#dark-mode {
+    border-radius: 10px;
+}
+
 .dark .header-container, .dark .summary-container, .dark .skill-desc, .dark .career-container {
     background-color: black;
 }
