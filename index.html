@@ -7,7 +7,7 @@
         <div class="header-container">
             <span class="name">Satvinder Singh Panesar</span>
             <span class="links">
-                <button id="dark-mode">Dark</button>
+                <button id="dark-mode">Dark Mode</button>
                 <a href="#skillset">Skillset</a>
                 <a href="#career">Career</a>
                 <a href="#email">Contact</a>
@@ -144,6 +144,9 @@
         </section>
     </body>
     <script>
+        const DARK_MODE = 'Dark Mode'
+        const LIGHT_MODE = 'Light Mode'
+        
         // Calculating numbers of years of SDE
         const joiningDate = new Date('July 01, 2013 00:00:00');
         const currentDate = Date.now()
@@ -159,6 +162,8 @@
         // Toggling dark mode
         document.getElementById('dark-mode').addEventListener('click', () => {
             document.body.classList.toggle('dark')
+            const darkModebutton = document.getElementById('dark-mode')
+            darkModebutton.innerHTML = darkModebutton.innerHTML === DARK_MODE ? LIGHT_MODE : DARK_MODE
         })
     </script>
 </html>
