@@ -225,6 +225,7 @@ ul li, .languages {
     background-color: white;
     border: 0px;
     color: #F64C27;
+    margin-right: 0.5em;
 }
 
 .dark .header-container, .dark .summary-container, .dark .skill-desc, .dark .career-container {
