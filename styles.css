@@ -222,6 +222,9 @@ ul li, .languages {
 
 #dark-mode {
     border-radius: 10px;
+    background-color: white;
+    border: 0px;
+    color: #F64C27;
 }
 
 .dark .header-container, .dark .summary-container, .dark .skill-desc, .dark .career-container {
